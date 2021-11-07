@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"target": "esnext",
+    "watch": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+	},
+    
+  // ** : 所有目录（包括子目录）
+  // * : 所有文件，也可以指定类型 *.ts
+  "include": ["./src/**/*"]
+}
